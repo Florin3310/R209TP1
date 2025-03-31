@@ -62,3 +62,26 @@ body header h1 {
     padding: 10px 20px;
     border-radius: 5px;
 }
+
+
+/* Partie téléphone */
+
+
+@media screen and (max-width: 1024px)  {
+    .formulaire {
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 2%;
+        padding-right: 0%;
+    }
+
+    .formulaire input[type="text"],.formulaire input[type="password"],.formulaire textarea , select {
+        width: 90%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #cccccc;
+        margin-bottom: 20px;
+    }
+
+}
