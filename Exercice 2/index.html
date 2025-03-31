@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire de Contact</title>
     <link rel="stylesheet" href="CSS/style.css" />
-</html>
-
+</head>
 <body>
     <header>
         <h1>Formulaire de Contact</h1>
     </header>
 
     <div class="formulaire">
+
         <div class="pseudo">
-            <label for="nom">Votre Pseudo *</label><br>
+            <label>Votre Pseudo *</label><br>
             <input type="text" id="pseudo" placeholder="Votre Pseudo" name="pseudo" required><br>
         </div>
+
         <div class="motdepasse">
-            <label for="nom">Votre Mot de passe *</label><br>
+            <label>Votre Mot de passe *</label><br>
             <input type="password" id="mot de passe" placeholder="Votre Mot de passe" name="mot de passe" required><br>
         </div>
+
         <div class="sujetmessage">
-            <label for="nom">Objet du message *</label><br>
+            <label>Objet du message *</label><br>
             <select id="objet" name="objet">
                 <option value="J'ai une petite question">J'ai une petite question</option>
                 <option value="J'ai une suggestion">J'ai une suggestion</option>
@@ -29,14 +32,14 @@
                 <option value="Autre">Autre</option>
             </select>
         </div>
+
         <div class="message">
-            <label for="nom">Votre message *</label><br>
+            <label>Votre message *</label><br>
             <textarea id="message" placeholder="Votre Message" name="message" required></textarea><br>
         </div>
 
-        <label for="nom">Niveau d'urgence *</label><br>
+        <label>Niveau d'urgence *</label><br>
         <div class="urgence">
-            
             <input type="radio" id="niveaudurgence1" name="niveaudurgence" value="1" required>
             <label for="niveaudurgence1">Urgent</label><br>
             <input type="radio" id="niveaudurgence2" name="niveaudurgence" value="2">
@@ -44,8 +47,6 @@
             <input type="radio" id="niveaudurgence3" name="niveaudurgence" value="3">
             <label for="niveaudurgence3">Lent</label><br>
         </div>
-
-
 
         <div class="politiques">
             <input type="checkbox" id="politique" name="politique" required>
@@ -56,5 +57,5 @@
             <input type="submit" value="Envoyer">
         </div>
     </div>
-
 </body>
+</html>
