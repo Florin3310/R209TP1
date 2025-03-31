@@ -1,0 +1,64 @@
+body { 
+    background-color: #333333
+}
+
+body header h1 { 
+    color: white;
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulaire {
+    margin: 20px auto;
+    width: 70%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.formulaire label {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulaire input[type="text"],.formulaire input[type="password"],.formulaire textarea , select {
+    width:99%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+.politiques {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.urgence {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px ;
+}
+
+.bouton {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.bouton input[type="submit"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(06, 42, 82);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
